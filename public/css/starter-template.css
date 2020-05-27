@@ -21,3 +21,16 @@ footer {
   font-size: 1.8em;
   color:white
 }
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.petcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: white !important;
+  padding: 100px !important; 
+}

@@ -31,7 +31,11 @@ Here's how I acheived all the criterias:
 
 Route::get('/', 'AppController@index');
 
-Route::get('/dogs', 'AppController@dogs');
+Route::get('/dogs', 'ControllerForDogs@ViewForDog');
 
-Route::get('/cats', 'AppController@cats');
+Route::get('/cats', 'ControllerForCats@ViewForCat');
+
+Route::get('/cats/{id}', 'SingleCat@cat');
+
+Route::get('/dogs/{id}', 'SingleDog@dog');
 
