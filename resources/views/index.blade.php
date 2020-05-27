@@ -15,7 +15,7 @@
                  <div class="card bg-dark">
                     <img class="card-img-top" src=<?php echo $featured->image ?> alt="Card image cap">
                     <div class="card-footer text-light text-center">
-                        <h2>Featured</h2>
+                        <a href="/{{$featured->pet_type}}s/{{$featured->id}}"> <h3>Featured</h3> </a>
                     </div>
                 </div>
             </div>
@@ -26,7 +26,7 @@
             <div class="card bg-dark">
                 <img class="card-img-top" src=<?php echo $pet->image ?> alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title text-light"><?php echo $pet->name ?></h5>
+                 <a href="/{{$pet->pet_type}}s/{{$pet->id}}"> <h5 class="card-title text-light"><?php echo $pet->name ?></h5> </a>
                 </div>
             </div>
         </div>

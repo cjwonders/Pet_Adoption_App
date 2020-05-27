@@ -15,4 +15,5 @@ class SingleCat extends Controller
 
         return view('SingleCat', ['cat' => $cat]);
     }
+
 }

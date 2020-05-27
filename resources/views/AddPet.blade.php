@@ -8,19 +8,31 @@
 
     @include('nav')
 
+    <div class='formcontainer'>
+
     {{Form::open(['url' => '/petadded', 'method' => 'post'])}}
 
     <?php
 
-    echo Form::label('pet_name', 'The Pets name');
+    echo Form::label('pet_name', 'Name');
+    echo '<br>';
     echo Form::text('pet_name');
-    echo Form::label('pet_image', 'The Pets image');
+    echo '<br>';
+    echo Form::label('pet_image', 'Image');
+    echo '<br>';
     echo Form::text('pet_image');
-    echo Form::label('pet_type', 'The Pets type');
+    echo '<br>';
+    echo Form::label('pet_type', 'Type');
+    echo '<br>';
     echo Form::text('pet_type');
+    echo '<br>';
     echo Form::submit('Add Pet!');
 
+    echo form::close()
+
     ?>
+
+    </div>
 
     <!--
     <main role="main" class="container">

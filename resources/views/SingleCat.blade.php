@@ -8,10 +8,10 @@
 
     @include('nav')
 
-    <main class='petcontainer'>
+    <container class='petcontainer'>
     <img src={{$cat->image}}>
     <h2> {{$cat->name}} </h2>
-    </main>
+    </container>
     
     @include('footer')
     

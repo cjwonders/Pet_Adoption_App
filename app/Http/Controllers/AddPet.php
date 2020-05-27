@@ -10,13 +10,6 @@ use Illuminate\Support\Facades\DB;
 class AddPet extends Controller
 {
     public function show () {
-
-        if (isset($pet_name)) {
-            var_dump($pet_name);
-        } else {
-            var_dump('Submit the form bro');
-        }
-
         return view('AddPet');
     }
 
