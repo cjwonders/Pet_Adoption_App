@@ -39,3 +39,7 @@ Route::get('/cats/{id}', 'SingleCat@cat');
 
 Route::get('/dogs/{id}', 'SingleDog@dog');
 
+Route::get('/addpet', 'AddPet@show');
+
+Route::post('/petadded', 'AddPet@add');
+

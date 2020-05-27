@@ -15,6 +15,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/dogs"><b>Dogs</b></a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/addpet"><b>Add a Pet</b></a>
+                </li>
 
             </ul>
             <ul class="navbar-nav float-right">

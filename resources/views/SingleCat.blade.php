@@ -8,13 +8,9 @@
 
     @include('nav')
 
-    <main role="main" class="container">
-
-    <div class='pet-container'>
-    <h2> {{$cat->name}} </h2>
+    <main class='petcontainer'>
     <img src={{$cat->image}}>
-    </div>
-
+    <h2> {{$cat->name}} </h2>
     </main>
     
     @include('footer')
