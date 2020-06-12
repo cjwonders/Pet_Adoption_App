@@ -2,8 +2,14 @@
 
 class PigLatin 
 {
+    
     function convert ($word)
     {
-        return $word;
+        $firstLetter = substr($word, 0, 1);
+
+        $newWord = substr($word, 1); 
+        $newWord .= $firstLetter . 'ay';
+
+        return $newWord;
     }
 }

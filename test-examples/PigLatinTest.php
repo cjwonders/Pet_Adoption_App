@@ -18,6 +18,6 @@ class FirstTest extends TestCase
             $result,
             "Pig Latin conversion did not work correctly"
         );
-        
     }
+
 }
